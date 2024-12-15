@@ -183,7 +183,7 @@ class GlobalConfig:
         # Forecast length in seconds when not near a lane change
         self.default_forecast_length = 2.0
         # Factor to increase the ego vehicles bbs during forecasting when speed < extent_ego_bbs_speed_threshold
-        self.slow_speed_extent_factor_ego = 1.
+        self.slow_speed_extent_factor_ego = 0.9
         # Speed threshold to select which factor is used during other vehicle bbs forecasting
         self.extent_other_vehicles_bbs_speed_threshold = 1.
         # Minimum extent of bbs, while forecasting other vehicles
